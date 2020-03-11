@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^8.0.0",
-    "expo-cli": "^3.13.2",
+    "expo-cli": "3.13.0",
     "expo-optimize": "^0.1.2",
     "sharp-cli": "^1.13.1"
   }
