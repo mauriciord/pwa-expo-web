@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "PWAExpoWeb",
+    "description": "A PWA using Expo Web",
+    "slug": "pwaingexpo",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "web": { "barStyle": "black-translucent" }
+  }
+}
