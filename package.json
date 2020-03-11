@@ -26,7 +26,7 @@
     "eject": "expo eject",
     "build": "expo build:web",
     "debug-prod": "expo build:web --no-pwa && serve ./web-build",
-    "predeploy": "yarn build && yarn expo-optimize",
+    "predeploy": "yarn build && expo-optimize",
     "deploy": "now web-build --prod"
   },
   "eslintConfig": {
