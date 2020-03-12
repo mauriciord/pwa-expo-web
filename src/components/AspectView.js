@@ -1,12 +1,11 @@
-import React, {useState} from "react";
-import {StyleSheet} from "react-native";
+import React, { useState } from "react";
+import { StyleSheet } from "react-native";
 import { Image } from '../shared/componentsWithStyles';
 
 export default function AspectView(props) {
     const [layout, setLayout] = useState(null);
 
-    const { aspectRatio = 1, ...inputStyle } =
-    StyleSheet.flatten(props.style) || {};
+    const { aspectRatio = 1, ...inputStyle } = StyleSheet.flatten(props.style) || {};
     const style = [inputStyle, { aspectRatio }];
 
     if (layout) {
